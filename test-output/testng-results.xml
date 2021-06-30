@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115" started-at="2021-06-29T13:03:54Z" finished-at="2021-06-29T13:03:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="115" started-at="2021-06-29T13:03:54Z" finished-at="2021-06-29T13:03:54Z">
+      <class name="regressionscripts.InvalidLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:regressionscripts.InvalidLogin@2c34f934]" name="setup" is-config="true" duration-ms="385" started-at="2021-06-29T18:33:53Z" finished-at="2021-06-29T18:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="openAppn(java.lang.String)[pri:0, instance:regressionscripts.InvalidLogin@2c34f934]" name="openAppn" is-config="true" duration-ms="0" started-at="2021-06-29T18:33:54Z" finished-at="2021-06-29T18:33:54Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method openAppn requires 1 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method openAppn requires 1 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppn -->
+        <test-method status="SKIP" signature="InvalidLogin()[pri:0, instance:regressionscripts.InvalidLogin@2c34f934]" name="InvalidLogin" duration-ms="9" started-at="2021-06-29T18:33:54Z" finished-at="2021-06-29T18:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="SKIP" signature="closeAppn(org.testng.ITestResult)[pri:0, instance:regressionscripts.InvalidLogin@2c34f934]" name="closeAppn" is-config="true" duration-ms="0" started-at="2021-06-29T18:33:54Z" finished-at="2021-06-29T18:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppn -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:regressionscripts.InvalidLogin@2c34f934]" name="teardown" is-config="true" duration-ms="0" started-at="2021-06-29T18:33:54Z" finished-at="2021-06-29T18:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- regressionscripts.InvalidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
