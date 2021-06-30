@@ -19,7 +19,7 @@ public class ValidLogin extends Generic_Test
 		   String password = Datadriven_excelread.getData("Sheet1", 0, 1);
 		   OnlineShoppingSitePage lp = new OnlineShoppingSitePage(driver);
 		        reports.createTest("ValidLogin", "user is trying to login with valid credentials");
-		        test.info("test started");
+		        test.info("test starting");
 		    	lp.setusername(username);
 		    	test.pass("user entered username");
 				lp.setpassword(password);
